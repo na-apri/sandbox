@@ -1,0 +1,7 @@
+{
+  "name": "SimpleQueue",
+  "description": "SimpleQueue",
+  "autoload": {
+  	"psr-0": { "SimpleQueue": "src/" }
+  }
+}
