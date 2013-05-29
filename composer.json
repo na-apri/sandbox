@@ -1,7 +1,23 @@
 {
-  "name": "SimpleQueue",
-  "description": "SimpleQueue",
-  "autoload": {
-  	"psr-0": { "SimpleQueue": "src/" }
-  }
+    "name": "na-apri/script-auto-compiler-l4",
+    "description": "",
+    "authors": [
+        {
+            "name": "na-apri",
+            "email": "na.apri@live.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "NaApri\\ScriptAutoCompilerL4": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
